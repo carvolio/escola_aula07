@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "nome": "João",
+        "materia": "Fisica"
+    },
+    {
+        "id": 2,
+        "nome": "Arnaldo",
+        "materia": "Matematica"
+    },
+    {
+        "id": 3,
+        "nome": "Fernanda",
+        "materia": "Quimica"
+    }
+]

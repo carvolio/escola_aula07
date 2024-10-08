@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "id_turma": 1,
+        "nome": "atividade 1",
+        "descricao": "realizar atividade 1"
+    },
+    {
+        "id": 2,
+        "id_turma": 2,
+        "nome": "atividade 2",
+        "descricao": "realizar atividade 2"
+    },
+    {
+        "id": 3,
+        "id_turma": 3,
+        "nome": "atividade 3",
+        "descricao": "realizar atividade 3"
+    }
+]

@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "id_professor": 1,
+        "nome": "Turma A"
+    },
+    {
+        "id": 2,
+        "id_professor": 2,
+        "nome": "Turma B"
+    },
+    {
+        "id": 3,
+        "id_professor": 3,
+        "nome": "Turma C"
+    }
+]
