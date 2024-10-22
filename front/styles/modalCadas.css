@@ -1,0 +1,34 @@
+.modal {
+    display: none; /* Oculta o modal por padrão */
+    position: fixed; /* Posição fixa */
+    z-index: 1; /* Índice de camada */
+    left: 0; /* Posição esquerda */
+    top: 0; /* Posição superior */
+    width: 100%; /* Largura */
+    height: 100%; /* Altura */
+    background-color: rgba(0, 0, 0, 0.4); /* Cor de fundo */
+  }
+  
+  .modal-content {
+    background-color: #fefefe; /* Cor de fundo */
+    margin: 15% auto; /* Margem */
+    padding: 20px; /* Preenchimento */
+    border: 1px solid #888; /* Borda */
+    width: 80%; /* Largura */
+    border-radius: 0.5em;
+  }
+  
+  .close {
+    color: #aaa; /* Cor do texto */
+    float: right; /* Posição */
+    font-size: 28px; /* Tamanho da fonte */
+    font-weight: bold; /* Peso da fonte */
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black; /* Cor do texto ao passar o mouse */
+    text-decoration: none; /* Não exibe sublinhado */
+    cursor: pointer; /* Cursor */
+  }
+

@@ -2,16 +2,22 @@
     {
         "id": 1,
         "nome": "João",
-        "materia": "Fisica"
+        "materia": "Fisica",
+        "email": "joao@email.com",
+        "senha": "123"
     },
     {
         "id": 2,
         "nome": "Arnaldo",
-        "materia": "Matematica"
+        "materia": "Matematica",
+        "email": "arnaldo@email.com",
+        "senha": "123"
     },
     {
         "id": 3,
         "nome": "Fernanda",
-        "materia": "Quimica"
+        "materia": "Quimica",
+        "email": "fernanda@email.com",
+        "senha": "123"
     }
 ]

@@ -17,6 +17,8 @@ model Professor {
   id      Int       @id @default(autoincrement())
   nome    String    @db.VarChar(255)
   materia String    @db.VarChar(255)
+  email   String    @db.VarChar(255) @unique
+  senha   String    @db.VarChar(255)
   turmas  Turma[]
 }
 

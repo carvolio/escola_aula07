@@ -5,18 +5,19 @@ require('dotenv').config();
 const read = async (req, res) => {
     const atividades = await prisma.atividade.findMany({
         where: {
-            turmaId: parseInt(req.params.turma)
+            id_turma: parseInt(req.params.turma)
         }
     });
     return res.json(atividades);
 }
 
 const create = async (req, res) => {
-    const { descricao, turmaId } = req.body;
+    const { nome, descricao, id_turma } = req.body;
     const atividade = await prisma.atividade.create({
         data: {
+            nome,
             descricao,
-            turmaId
+            id_turma
         }
     });
     return res.status(201).json(atividade);

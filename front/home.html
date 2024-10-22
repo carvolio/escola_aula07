@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/modalCadas.css">
+    <link rel="stylesheet" href="./styles/modalConfirm.css">
+    <link rel="stylesheet" href="./styles/modalView.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <span id="userName"></span>
+        <button id="btnLogout">Sair</button>
+    </div>
+    <div>
+        <div id="modal" class="modal">
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <h2>Cadastro</h2>
+              <form action="" id="formTurma">
+                <input type="text" name="nomeTurma" id="nomeTurma" placeholder="Nome da Turma" required>
+                <button type="submit">Cadastra</button>
+              </form>
+            </div>
+        </div>
+        <button id="btn-abrir-modal">Cadastro</button>
+    </div>
+    <div id="modalConfirm" class="modal">
+        <div class="modal-contentConfirm">
+          <span class="closeConfirm">&times;</span>
+          <h2>Deseja confirmar exclusão?</h2>
+          <div>
+            <button id="btn-confirm">Sim</button>
+            <button id="btn-confirm-no" class="closeConfirm">Não</button>
+          </div>
+        </div>
+    </div>
+    <div id="modalView" class="modal">
+        <div class="modal-contentView">
+          <span class="closeView">&times;</span>
+          <h3>Atividades da Turma</h3>
+          <h4 id="titleView"></h4>
+          <button id="btn-add-show">Adicionar Atividade</button>
+          <div class="addAtiDiv" id="addAtiDiv">
+            <form action="" id="formAti">
+                <input type="text" nome="nomeAti" id="nomeAti" placeholder="Nome da Atividade" required>
+                <input type="text" nome="descricaoAti" id="descricaoAti" placeholder="Descrição da Atividade" required>
+                <input type="datetime-local" nome="dataAti" id="dataAti" required>
+                <button type="submit">Adicionar</button>
+            </form>
+          </div>
+          <table id="tableContentAti">
+            <tr>
+                <th>ID</th>
+                <th>Nome</th>
+                <th>Descrição</th>
+            </tr>
+        </table>
+        </div>
+    </div>
+    <div>
+        <h3>Minhas Turmas</h3>
+        <table id="tableContent">
+            <tr>
+                <th>ID</th>
+                <th>Nome</th>
+                <th>excluir</th>
+                <th>visualizar</th>
+            </tr>
+        </table>
+    </div>
+</body>
+<script src="./scripts/auth.js"></script>
+<script src="./scripts/delTarefa.js"></script>
+<script src="./scripts/showData.js"></script>
+<script src="./scripts/showModal.js"></script>
+<script src="./scripts/cadastro.js"></script>
+<script src="./scripts/logout.js"></script>
+</html>
